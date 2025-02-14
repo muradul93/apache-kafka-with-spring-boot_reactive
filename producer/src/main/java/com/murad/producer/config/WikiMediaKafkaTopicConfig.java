@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
-public class WikiMediaTopicConfig {
+public class WikiMediaKafkaTopicConfig {
 
     @Bean
     public NewTopic wikiMediaTopic() {
